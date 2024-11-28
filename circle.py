@@ -26,6 +26,6 @@ class CircleTestCase(unittest.TestCase):
     def test_per_fifhteen(self):
         res = perimeter(15)
         self.assertEqual(res, 94.24777960769379)
-    def test_area_hun(self):
+    def test_per_hun(self):
         res = perimeter(100)
         self.assertEqual(res, 628.3185307179587)
